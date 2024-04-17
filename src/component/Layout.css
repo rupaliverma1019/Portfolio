@@ -1,0 +1,33 @@
+.sidebar-section {
+    width: 12vw;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+.sidebar {
+    background-color: black;
+    position: fixed;
+    color: darkgoldenrod;
+}
+
+.sidebar-toggle {
+    background-color: black;
+    min-height: 100vh;
+    color: darkgoldenrod;
+}
+
+.sidebar-toggle-icons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+
+@media (max-width:320px) {
+    .sidebar-toggle-icons {
+        display: none;
+    }
+    .sidebar-toggle {
+        display: none;
+    }
+}

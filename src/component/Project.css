@@ -1,0 +1,105 @@
+.project {}
+
+.project h1 {
+    color: chocolate;
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    width: 680px;
+    height: 450px;
+    background-color: grey;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 250px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.card h2 {
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+}
+
+.card .tech {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech h3 {
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(coral, darkgoldenrod, chocolate);
+}
+
+.tech h3:hover {
+    box-shadow: 0 0 15px purple;
+    background-image: linear-gradient(black, plum, black);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.card h3 {
+    display: flex;
+}
+
+.card a {
+    border: 1px solid black;
+    padding: 5px 25px;
+    margin-top: 55px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.project p {
+    color: rgb(168, 152, 133);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width:320px) {
+    .project {
+        /* border: 2px solid rgb(169, 32, 32); */
+        /* display: none; */
+        height: 250vh;
+        position: relative;
+        top: 1200vh;
+        left: 50px;
+    }
+    .project .cardc {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+    .cardc .tech {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    .project {
+        /* border: 2px solid white; */
+        /* display: none; */
+        position: absolute;
+        top: 770vh;
+        left: 50px;
+        width: 100%;
+        height: 160vh;
+    }
+    .project .cardc {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    .cardc .tech {
+        display: flex;
+        flex-direction: column;
+    }
+}

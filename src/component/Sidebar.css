@@ -1,0 +1,25 @@
+.sidebar {
+    height: 100vh;
+}
+
+.navbar-profile-pic img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.nav-items {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+.nav-items .nav-link {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.education {
+    background-color: black;
+}
+
+.education h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+.education .content {
+    color: yellow;
+    text-shadow: 3px 3px 4px peru;
+}
+
+@media (max-width:320px) {
+    .education {
+        /* border: 2px solid rgb(169, 32, 32); */
+        /* display: none; */
+        position: absolute;
+        top: 350vh;
+        left: 50px;
+        width: 100%;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    .education {
+        /* border: 2px solid white; */
+        /* display: none; */
+        position: absolute;
+        top: 355vh;
+        left: 50px;
+        /* right: 0; */
+        width: 100%;
+    }
+}

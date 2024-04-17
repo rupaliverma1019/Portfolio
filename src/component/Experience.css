@@ -1,0 +1,23 @@
+.experience h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+@media (max-width:320px) {
+    .experience {
+        /* border: 2px solid rgb(169, 32, 32); */
+        /* display: none; */
+        position: relative;
+        top: 730vh;
+        left: 50px;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    .experience {
+        /* border: 2px solid white; */
+        /* display: none; */
+        position: absolute;
+        top: 650vh;
+    }
+}

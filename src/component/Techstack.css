@@ -1,0 +1,58 @@
+.techstack {
+    /* border: 1px solid red; */
+    background-color: black;
+    width: 100%;
+}
+
+.techstack h1 {
+    text-align: center;
+    /* background-color: black; */
+    color: chocolate;
+}
+
+.techstack p {
+    color: darkgoldenrod;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.cardContainer {
+    color: black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px 20px;
+    background-color: burlywood;
+}
+
+.cardContainer:hover {
+    box-shadow: 0 0 15px lightsalmon;
+    background-color: coral;
+    cursor: pointer;
+}
+
+@media (max-width:320px) {
+    .techstack {
+        /* display: none; */
+        position: absolute;
+        top: 780vh;
+        left: 50px;
+        /* border: 2px solid white; */
+    }
+    .techstack .cardContainer {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    .techstack {
+        /* border: 2px solid white; */
+        /* display: none; */
+        position: absolute;
+        top: 150vh;
+        left: 95px;
+        padding: 0 50px;
+        width: 100%;
+        right: 0;
+    }
+}
