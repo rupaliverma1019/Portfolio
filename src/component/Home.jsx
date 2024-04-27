@@ -19,7 +19,8 @@ const Home = () => {
     </h1>
 
     <div className='home-buttons'>
-        <button className='btn btn-hire'>Hire Me</button>
+      <a className='btn btn-hire' href='https://api.whatsapp.com/send?phone=7491080833' rel='norefferer' target='_blank'>Hire Me</a>
+        
         <a href={Resume} className='btn btn-cv'>Resume</a>
     </div>
     </div>

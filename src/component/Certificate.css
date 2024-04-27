@@ -1,0 +1,15 @@
+.certificate h1 {
+    color: chocolate;
+    text-align: center;
+}
+
+.certificate {
+    background-color: aliceblue;
+}
+
+.certificate .cards {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 150px;
+    /* border: 1px solid black; */
+}
