@@ -24,6 +24,7 @@ function App() {
     <Certificate/>
     <Project/>
     <Experience/> 
+  
     <Contact/>
     <ScrollToTop smooth  style={{borderRadius: "30px"}}/>
     </>

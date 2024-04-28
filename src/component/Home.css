@@ -42,20 +42,11 @@
     font-weight: 700;
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .home {
         /* border: 2px solid white; */
         margin-left: 50px;
         height: 70vh;
         width: 100%;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    .home {
-        /* border: 2px solid white; */
-        /* display: none; */
-        position: absolute;
-        left: 0px;
     }
 }

@@ -27,21 +27,21 @@
     font-size: large;
 }
 
-@media (max-width:320px) {
+@media only screen and (max-width: 600px) {
     .about {
-        /* border: 2px solid rgb(169, 32, 32); */
-        /* display: none; */
-        height: 280vh;
+        height: 160vh;
         position: absolute;
         top: 70vh;
         left: 15px;
         width: 100%;
+        background-color: black;
+        /* border: 2px solid rgb(169, 32, 32); */
     }
     .about img {
         /* border: 2px solid rgb(169, 32, 32); */
         /* display: none; */
         position: absolute;
-        top: 10px;
+        top: 10vh;
         left: 0;
         width: 80%;
     }
@@ -49,17 +49,9 @@
         /* border: 2px solid rgb(169, 32, 32); */
         /* display: none; */
         position: absolute;
-        top: 170px;
+        top: 60vh;
         left: 0;
         width: 80%;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    .about {
-        /* border: 2px solid white; */
-        /* display: none; */
-        position: absolute;
-        height: 100vh;
+        height: fit-content;
     }
 }

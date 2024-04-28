@@ -31,28 +31,15 @@
     cursor: pointer;
 }
 
-@media (max-width:320px) {
+@media only screen and (max-width: 600px) {
     .techstack {
         /* display: none; */
         position: absolute;
-        top: 780vh;
+        top: 500vh;
         left: 50px;
         /* border: 2px solid white; */
     }
     .techstack .cardContainer {
         margin: 10px 0;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    .techstack {
-        /* border: 2px solid white; */
-        /* display: none; */
-        position: absolute;
-        top: 150vh;
-        left: 95px;
-        padding: 0 50px;
-        width: 100%;
-        right: 0;
     }
 }

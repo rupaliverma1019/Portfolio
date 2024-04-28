@@ -9,7 +9,7 @@ import { MdCastForEducation } from "react-icons/md";
 import { GoProjectRoadmap } from "react-icons/go";
 import { IoIosContact } from "react-icons/io";
 import { Link,  animateScroll as scroll, scrollSpy } from 'react-scroll';
-
+import { FaCertificate } from "react-icons/fa6";
 const Sidebar = ({toggle}) => {
   return (
     <>
@@ -46,6 +46,14 @@ const Sidebar = ({toggle}) => {
                 <Link to='education' spy={true} smooth={true} offset={-100} duration={100}>
                     <MdCastForEducation />
                     Education
+                    </Link>
+
+                
+                </div>
+                <div className="nav-link">
+                <Link to='certificate' spy={true} smooth={true} offset={-100} duration={100}>
+                    <FaCertificate/>
+                        Certificate
                     </Link>
 
                 
@@ -99,6 +107,12 @@ const Sidebar = ({toggle}) => {
                 <Link to='education' spy={true} smooth={true} offset={-100} duration={100}>
                 <MdCastForEducation  title='Education'/>
                 </Link> 
+                </div>
+
+                <div className="nav-link">
+                <Link to='certificate' spy={true} smooth={true} offset={-100} duration={100}>
+                <FaCertificate title='Certificate'/>
+                </Link>
                 </div>
                 <div className="nav-link">
                 <Link to='techstack' spy={true} smooth={true} offset={-100} duration={100}>

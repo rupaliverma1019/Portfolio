@@ -23,11 +23,11 @@
     cursor: pointer;
 }
 
-@media (max-width:320px) {
+@media only screen and (max-width: 600px) {
     .sidebar-toggle-icons {
-        display: none;
+        display: block;
     }
     .sidebar-toggle {
-        display: none;
+        display: block;
     }
 }

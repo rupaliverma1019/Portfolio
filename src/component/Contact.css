@@ -36,34 +36,18 @@
     box-shadow: 2px 2px 2px #045D5D;
 }
 
-@media (max-width:320px) {
+@media only screen and (max-width: 600px) {
     .contact {
         /* border: 2px solid rgb(169, 32, 32); */
         /* display: none; */
         position: absolute;
-        top: 1550vh;
+        top: 1000vh;
         left: 50px;
         display: flex;
         flex-direction: column;
     }
     .contact img {
         /* margin: 0; */
-        width: 100%;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    .contact {
-        /* border: 2px solid white; */
-        /* display: none; */
-        position: absolute;
-        top: 940vh;
-        display: flex;
-        left: 20px;
-        flex-direction: column;
-        width: 100%;
-    }
-    .contact img {
         width: 100%;
     }
 }

@@ -17,11 +17,12 @@ const Contact = () => {
     .then(
       (result) => {
         console.log(result.success);
+        form.current.reset();
       },
       (error) => {
         console.log('FAILED...', error.text);
       },
-    );
+    ); 
     
 };
   
@@ -36,9 +37,9 @@ const Contact = () => {
     <form ref={form} onSubmit={sendEmail} className="right" >
         <h1>Contact With    <FaLinkedinIn /><FaGithub /> </h1>
         
-        <input type="text" placeholder='Enter Your Name'/>
-        <input type='email'placeholder='Enter Your Email'/>
-        <textarea type='text' placeholder='Write your message' />
+        <input type="text" placeholder='Enter Your Name' name='from_name'/>
+        <input type='email'placeholder='Enter Your Email' name='reply_to'/>
+        <textarea type='text' placeholder='Write your message'  name='message'/>
         <button type='submit '  className='btn'>SEND MESSAGE</button>
     </form>
     </div>
